@@ -1,7 +1,138 @@
-body{
-  background: linear-gradient(#D098F0, #9C3AD3);
-  background-repeat:no-repeat;
-  
+html{
+  height: 100%;
 }
 
-añadiendo algo
+body{
+  background: linear-gradient(#D098F0, #AD2A89);
+  background-repeat:no-repeat;
+}
+
+
+.contenedor-all{
+ background: linear-gradient(#A82BD1, #5E1476);
+ width: 1200px;
+ height: 500px;
+ border-radius:20px;
+ position:absolute;
+ left: 6.5%;
+ top:12%;
+ display:flex;
+ justify-content: center;
+
+}
+
+.contenedor-all .Individual{
+  top: 10%;
+  position: relative;
+  background-color: white;
+  width: 290px;
+  height: 390px;
+  border-radius: 8px;
+  overflow:hidden;
+  text-align: center;
+  border: 1px rgb(85,85,85) solid;
+}
+
+.contenedor-all .Individual img{
+    position: relative;
+    top: 5%;
+    width:100px;
+    height:100px;
+    border-radius:70px;
+}
+.contenedor-all .Individual h1{
+  font-family: 'century gothic';
+  color: #BD36CA;
+}
+
+.contenedor-all .Individual p{
+  position: relative;
+  top: 2%;
+  left: 17%;
+  text-align:justify;
+  font-family:'COMPACT';
+  font-size:15px;
+}
+.contenedor-all .Individual h2{
+  font-family: 'century gothic';
+  text-align:center;
+  color: #BD36CA;
+  font-size:40px;
+}
+.contenedor-all .Team{
+  top: 6%;
+  position: relative;
+  background-color: white;
+  width: 290px;
+  height: 425px;
+  border-radius: 8px;
+  overflow:hidden;
+  text-align: center;
+  border: 1px rgb(85,85,85) solid;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.contenedor-all .Team img{
+    position: relative;
+    top: 5%;
+    width:100px;
+    height:100px;
+    border-radius:70px;
+}
+.contenedor-all .Team h1{
+  font-family: 'century gothic';
+  color: #BD36CA;
+}
+
+.contenedor-all .Team p{
+  position: relative;
+  top: 2%;
+  left: 17%;
+  text-align:justify;
+  font-family:'COMPACT';
+  font-size:15px;
+}
+.contenedor-all .Team h2{
+  font-family: 'century gothic';
+  text-align:center;
+  color: #BD36CA;
+  font-size:40px;
+}
+.contenedor-all .Enterprise{
+  top: 10%;
+  position: relative;
+  background-color: white;
+  width: 290px;
+  height: 390px;
+  border-radius: 8px;
+  overflow:hidden;
+  text-align: center;
+  border: 1px rgb(85,85,85) solid;
+}
+
+.contenedor-all .Enterprise img{
+    position: relative;
+    top: 5%;
+    width:100px;
+    height:100px;
+    border-radius:70px;
+}
+.contenedor-all .Enterprise h1{
+  font-family: 'century gothic';
+  color: #BD36CA;
+}
+
+.contenedor-all .Enterprise p{
+  font-family:'COMPACT';
+  position: relative;
+  top: 2%;
+  left: 17%;
+  text-align:justify;
+  font-size:15px;
+}
+.contenedor-all .Enterprise h2{
+  font-family: 'century gothic';
+  text-align:center;
+  color: #BD36CA;
+  font-size:40px;
+}
