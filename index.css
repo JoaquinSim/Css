@@ -10,32 +10,40 @@ body{
 
 .contenedor-all{
  background: linear-gradient(#A82BD1, #5E1476);
- width: 1200px;
- height: 500px;
+ width: 800px;
+ height: 450px;
  border-radius:20px;
  position:absolute;
- left: 6.5%;
- top:12%;
+ left: 22.5%;
+ top:17%;
  display:flex;
  justify-content: center;
-
+   opacity: .5;
 }
-
+.contenedor-all:hover{
+  opacity: 1.10;
+}
 .contenedor-all .Individual{
-  top: 10%;
+  top: 12%;
   position: relative;
-  background-color: white;
-  width: 290px;
-  height: 390px;
+  background-color:#E0E0E0;
+  width: 230px;
+  height: 340px;
   border-radius: 8px;
   overflow:hidden;
   text-align: center;
   border: 1px rgb(85,85,85) solid;
+  transition: background-color .5s;
+}
+.Individual:hover{
+    background-color:white;
+    transform: scale(1.2);
+    transition: transform 1s;
 }
 
 .contenedor-all .Individual img{
     position: relative;
-    top: 5%;
+    top: 7%;
     width:100px;
     height:100px;
     border-radius:70px;
@@ -47,46 +55,55 @@ body{
 
 .contenedor-all .Individual p{
   position: relative;
-  top: 2%;
-  left: 17%;
+  top: -1%;
+  left: 15%;
   text-align:justify;
   font-family:'COMPACT';
   font-size:15px;
 }
 .contenedor-all .Individual h2{
+  position: relative;
+  top: -4%;
   font-family: 'century gothic';
   text-align:center;
   color: #BD36CA;
-  font-size:40px;
+  font-size:30px;
 }
 .contenedor-all .Team{
-  top: 6%;
+  top: 7%;
   position: relative;
-  background-color: white;
-  width: 290px;
-  height: 425px;
+  background-color:#E0E0E0;
+  transition: background-color .5s;
+  width: 250px;
+  height: 380px;
   border-radius: 8px;
   overflow:hidden;
   text-align: center;
   border: 1px rgb(85,85,85) solid;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .8);
 }
-
+.Team:hover{
+    background-color:white;
+    transform: scale(1.2);
+     transition: transform 1s;
+}
 .contenedor-all .Team img{
     position: relative;
-    top: 5%;
+    top: 11%;
     width:100px;
     height:100px;
     border-radius:70px;
 }
 .contenedor-all .Team h1{
+  position: relative;
+  top: 5%;
   font-family: 'century gothic';
   color: #BD36CA;
 }
 
 .contenedor-all .Team p{
   position: relative;
-  top: 2%;
+  top: 5%;
   left: 17%;
   text-align:justify;
   font-family:'COMPACT';
@@ -99,21 +116,27 @@ body{
   font-size:40px;
 }
 .contenedor-all .Enterprise{
-  top: 10%;
+  top: 12%;
   position: relative;
-  background-color: white;
-  width: 290px;
-  height: 390px;
+  background-color:#E0E0E0;
+  transition: background-color .5s;
+  width: 230px;
+  height: 340px;
   border-radius: 8px;
   overflow:hidden;
   text-align: center;
   border: 1px rgb(85,85,85) solid;
 
 }
+.Enterprise:hover{
+  background-color:white;
+  transform: scale(1.2);
+   transition: transform 1s;
+}
 
 .contenedor-all .Enterprise img{
     position: relative;
-    top: 5%;
+    top: 7%;
     width:100px;
     height:100px;
     border-radius:70px;
@@ -127,15 +150,17 @@ body{
 .contenedor-all .Enterprise p{
   font-family:'COMPACT';
   position: relative;
-  top: 2%;
-  left: 17%;
+  top: -1%;
+  left: 15%;
   text-align:justify;
   font-size:15px;
 }
 
 .contenedor-all .Enterprise h2{
+  position: relative;
+  top: -4%;
   font-family: 'century gothic';
   text-align:center;
   color: #BD36CA;
-  font-size:40px;
+  font-size:30px;
 }
